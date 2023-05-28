@@ -69,7 +69,6 @@ val communities = listOf(
 
 @Composable
 fun SubredditsScreen(modifier: Modifier = Modifier) {
-    //TODO add your code here
     Column(
         modifier = modifier
             .verticalScroll(rememberScrollState())
@@ -92,7 +91,6 @@ fun SubredditsScreen(modifier: Modifier = Modifier) {
 
 @Composable
 fun Subreddit(subredditModel: SubredditModel, modifier: Modifier = Modifier) {
-    //TODO add your code here
     Card(
         backgroundColor = MaterialTheme.colors.surface,
         shape = RoundedCornerShape(4.dp),
